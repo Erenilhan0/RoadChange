@@ -7,6 +7,7 @@ using UnityEngine;
 public class MeshController : MonoBehaviour
 {
     public MD_MeshEditorRuntime runTimeEditor;
+    public MD_MeshColliderRefresher meshColliderRefresher;
 
 
     [SerializeField] private Camera mainCam;
@@ -14,7 +15,7 @@ public class MeshController : MonoBehaviour
 
     public MD_MeshProEditor targetMesh;
 
-
+    public int fourPackAmount;
     private void Start()
     {
         if (targetMesh.meshWorkingPoints == null || targetMesh.meshWorkingPoints.Count ==0)
@@ -23,30 +24,34 @@ public class MeshController : MonoBehaviour
 
             for (int i = 0; i < targetMesh.meshWorkingPoints.Count; i++)
             {
-                targetMesh.meshWorkingPoints[i].gameObject.layer = 7;
-                // if (i > 15)
+               var go =  targetMesh.meshWorkingPoints[i].gameObject;
+                // if (i% 4 == 0)
                 // {
-                //     targetMesh.meshWorkingPoints[i].gameObject.SetActive(false);
+                //     fourPackAmount++;
                 // }
+                if (go.transform.localPosition.y < 0.35f)
+                {
+                    targetMesh.meshWorkingPoints[i].gameObject.SetActive(false);
+                }
             }
         }
         
         //targetMesh.meshAnimationMode = true;
         
 
-
-        if (runTimeEditor.isAxisEditor)
-        {
-            runTimeEditor.AXIS_CreateAxisHandleAutomatically();
-            runTimeEditor.axis_targetMeshProEditor = targetMesh;
-        }
+        //
+        // if (runTimeEditor.isAxisEditor)
+        // {
+        //     runTimeEditor.AXIS_CreateAxisHandleAutomatically();
+        //     runTimeEditor.axis_targetMeshProEditor = targetMesh;
+        // }
 
     }
 
-
+    
     public void UpdateMeshCollider()
     {
-        
-        
+        meshColliderRefresher.MeshCollider_UpdateMeshCollider();
+
     }
 }
