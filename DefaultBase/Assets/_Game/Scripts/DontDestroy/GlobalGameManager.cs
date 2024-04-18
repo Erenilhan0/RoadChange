@@ -8,7 +8,7 @@ public class GlobalGameManager : MonoBehaviour
 {
 
     public static GlobalGameManager I;
-    public int currentLevel =>SaveLoad.I.playerProgress.curentLevel;
+    public int currentLevel =>SaveLoad.I.playerProgress.currentLevel;
 
     private void Awake()
     {

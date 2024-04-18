@@ -21,7 +21,7 @@ public class Ui_Game : UiBase
     {
         if (obj == GamePhase.Game)
         {
-            levelText.text = "Level " + (GlobalGameManager.I.currentLevel+1).ToString();
+            levelText.text = (GlobalGameManager.I.currentLevel+1).ToString();
             levelText.gameObject.SetActive(true);
         }
 
@@ -30,10 +30,13 @@ public class Ui_Game : UiBase
 
     public override void HideUi()
     {
+        transform.DOScale(0, 0);
     }
 
 
     public override void ShowUi()
     {
+        transform.DOScale(1, 0);
     }
+
 }

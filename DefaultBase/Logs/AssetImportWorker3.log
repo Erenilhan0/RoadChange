@@ -1,0 +1,767 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.33f1 (ee5a2aa03ab2) revision 15620650'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/erenn/Documents/GitHub/RoadChange/DefaultBase
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+62541
+Successfully changed project path to: C:/Users/erenn/Documents/GitHub/RoadChange/DefaultBase
+C:/Users/erenn/Documents/GitHub/RoadChange/DefaultBase
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20380] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 3892687353 [EditorId] 3892687353 [Version] 1048832 [Id] WindowsEditor(7,Eren) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20380] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 3892687353 [EditorId] 3892687353 [Version] 1048832 [Id] WindowsEditor(7,Eren) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 184.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/erenn/Documents/GitHub/RoadChange/DefaultBase/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5969 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011395 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 288 ms
+Refreshing native plugins compatible for Editor in 138.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1214ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (947ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (716ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (399ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011133 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 143.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1964ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1669ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (1131ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (143ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (735ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3865 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (399.2 KB). Loaded Objects now: 4364.
+Memory consumption went from 279.9 MB to 279.6 MB.
+Total: 3.586100 ms (FindLiveObjects: 0.348200 ms CreateObjectMapping: 0.106200 ms MarkObjects: 2.905800 ms  DeleteObjects: 0.224900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 203239.353058 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/128/btn-icon-angel.png
+  artifactKey: Guid(442d75636af304e5eb2641de386fcb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/128/btn-icon-angel.png using Guid(442d75636af304e5eb2641de386fcb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd36bb528cdd80e679e5b50feae36375') in 0.153345 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.630662 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/character_lv_bg.png
+  artifactKey: Guid(e19e5296403924aa284b2678fbe8b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/character_lv_bg.png using Guid(e19e5296403924aa284b2678fbe8b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a722f1a2adf931c5a87bdf131f7db8cf') in 0.038710 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/common_bg_glow_0.png
+  artifactKey: Guid(dcffd6cb697cf48baae8890f4fe08712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/common_bg_glow_0.png using Guid(dcffd6cb697cf48baae8890f4fe08712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f4064afa49fadbb3af8e1d841bab25') in 0.141092 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Inbox/inbox_character_bg_green.png
+  artifactKey: Guid(1bb4783acab174413806383baa8149f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Inbox/inbox_character_bg_green.png using Guid(1bb4783acab174413806383baa8149f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f576c65047abbcbf20b2aec12d56c250') in 0.036580 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Equipment_Inventory/equipment_detail_lv_bg.png
+  artifactKey: Guid(8c56c5fdda92b4c74b0de742465022b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Equipment_Inventory/equipment_detail_lv_bg.png using Guid(8c56c5fdda92b4c74b0de742465022b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b213a26c29a522c4076414c04bd7db4') in 0.035231 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Character_List_Select/character_role_bg.png
+  artifactKey: Guid(535673d3292e04b449b63e2d699f99ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Character_List_Select/character_role_bg.png using Guid(535673d3292e04b449b63e2d699f99ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75dc7215670fd226405fc4bc69f0f2d1') in 0.032489 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/common_bg_glow_512.png
+  artifactKey: Guid(30af861f4c8c141159c3c1ff5b424c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/common_bg_glow_512.png using Guid(30af861f4c8c141159c3c1ff5b424c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e95db07ebdaac95ee35b3d0eb87aeff') in 0.055164 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Lobby/lobby_pass_bar_bg.png
+  artifactKey: Guid(299a90a20014649b08b2b908b2cd9f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Lobby/lobby_pass_bar_bg.png using Guid(299a90a20014649b08b2b908b2cd9f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70d757a94b8fcb76b114d1df1f5eebc') in 0.034183 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Inbox/inbox_character_bg_blue.png
+  artifactKey: Guid(4bc838f2408bc4f38aac83f3fcf3bcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Inbox/inbox_character_bg_blue.png using Guid(4bc838f2408bc4f38aac83f3fcf3bcb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b3f526ab66c5f6782183e3a5c9954d') in 0.030128 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/joystick_bg.png
+  artifactKey: Guid(f43899c31dd434901b0422f98bcde88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/joystick_bg.png using Guid(f43899c31dd434901b0422f98bcde88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2228a691248aee3601666f3e673bf73c') in 0.040090 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Clan/_backup/clan_info_bg.png
+  artifactKey: Guid(3e36b570a407647f18e279be6421bc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Clan/_backup/clan_info_bg.png using Guid(3e36b570a407647f18e279be6421bc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371b9800806f4f367eaac8c67f22f34a') in 0.039533 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Levleup/levelup_bg_glow.png
+  artifactKey: Guid(56a2ee4992e5e4554b190dd0dd9bd344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Levleup/levelup_bg_glow.png using Guid(56a2ee4992e5e4554b190dd0dd9bd344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9349dd6d61060345d81874c57d10526a') in 0.059230 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/PopupSubscribe/info_bg_purple.png
+  artifactKey: Guid(75e3eed89f4c445c18126fbb6d66222e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/PopupSubscribe/info_bg_purple.png using Guid(75e3eed89f4c445c18126fbb6d66222e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc212830aa5c51df75b0816efbfabae') in 0.032685 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Lobby/lobby_pass_season_bg.png
+  artifactKey: Guid(640724475c72a47018e84ab3b25391f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Lobby/lobby_pass_season_bg.png using Guid(640724475c72a47018e84ab3b25391f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49096f5538bbd7f247854433574bbb16') in 0.032788 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Chat/join_bg.png
+  artifactKey: Guid(91343437293ce45ac84f9583191fd0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Chat/join_bg.png using Guid(91343437293ce45ac84f9583191fd0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0537144577fd52b74b0dc5b67903e67f') in 0.033898 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_list_reward_bg_n.png
+  artifactKey: Guid(be6d65483b1a64fe6962cf3e06fb9ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_list_reward_bg_n.png using Guid(be6d65483b1a64fe6962cf3e06fb9ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42b17bc46c2a0a25a35ec9eb5094abf') in 0.032061 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Levleup/levelup_bg_glow 1.png
+  artifactKey: Guid(4ee91d319886c4e4b8a4155b88bc8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Levleup/levelup_bg_glow 1.png using Guid(4ee91d319886c4e4b8a4155b88bc8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6d983528b906cc2f733dc88fb4b52a') in 0.058810 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Inbox/inbox_list_get_reward_bg.png
+  artifactKey: Guid(10cba4be838bc4ac3b9e30dd05d7d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Inbox/inbox_list_get_reward_bg.png using Guid(10cba4be838bc4ac3b9e30dd05d7d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55699c62765596340af153c3a0ede58d') in 0.027770 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.159125 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_reward_bg_gray.png
+  artifactKey: Guid(267c0f3f80b3248eba5b2ce935fbc434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_reward_bg_gray.png using Guid(267c0f3f80b3248eba5b2ce935fbc434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b731bc4bf46ac2a8f5e7b222eb236457') in 0.034863 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/_UsedAssets/ICONS/notification_bg_red.png
+  artifactKey: Guid(09bc4c8968db34013af82f219bace12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/_UsedAssets/ICONS/notification_bg_red.png using Guid(09bc4c8968db34013af82f219bace12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570e62e8bd78375cccbc2aa4f1fc95a6') in 0.033699 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_reward_bg_green.png
+  artifactKey: Guid(96d4d4384de924045abe5d240e8b191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_reward_bg_green.png using Guid(96d4d4384de924045abe5d240e8b191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c95a373a375b1b4ade272b0207358c1') in 0.038926 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002207 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Pass/pass_prg_bg.png
+  artifactKey: Guid(f98154b33c65045c780880a671e55b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Pass/pass_prg_bg.png using Guid(f98154b33c65045c780880a671e55b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7945479e277afb986f3c8c004fcf07') in 0.033944 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Pass/pass_sub_title_bg.png
+  artifactKey: Guid(6163179331e7542c183da946d5438c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Pass/pass_sub_title_bg.png using Guid(6163179331e7542c183da946d5438c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e532c6fa87be9b4233a4c7b459608940') in 0.039428 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Pass/pass_reward_prg_num_bg_yellow.png
+  artifactKey: Guid(78f7436ea745448f48e4ef7cd0aa0f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Pass/pass_reward_prg_num_bg_yellow.png using Guid(78f7436ea745448f48e4ef7cd0aa0f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59ec1733629bdaff7d853893b3016d7') in 0.040168 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Pass/pass_reward_prg_num_bg_gray.png
+  artifactKey: Guid(3ead9d80760a040d0b70e86939528e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Pass/pass_reward_prg_num_bg_gray.png using Guid(3ead9d80760a040d0b70e86939528e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a376b6273a5ac2298773bddde8f433f9') in 0.032178 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Pass/pass_reward_prg_bg.png
+  artifactKey: Guid(909969ef7ab0d428c8a6b640ab051d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Pass/pass_reward_prg_bg.png using Guid(909969ef7ab0d428c8a6b640ab051d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94e7b73f65283360606d26010a7d327') in 0.028033 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/play_bottom_bg.png
+  artifactKey: Guid(6113c1408d1594d2aa275124a14efdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/play_bottom_bg.png using Guid(6113c1408d1594d2aa275124a14efdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8c3e7aa59ced2b93071844b77690e9') in 0.031428 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.041664 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/play_bottom_character_bg_red.png
+  artifactKey: Guid(9f2137a2325a9446087d36726486983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/play_bottom_character_bg_red.png using Guid(9f2137a2325a9446087d36726486983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2491dc9500bdf61723039aaf1287ab') in 0.037663 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/play_bottom_character_lv_bg.png
+  artifactKey: Guid(f9f9547cfd43f48799eb35ebf9d37c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/play_bottom_character_lv_bg.png using Guid(f9f9547cfd43f48799eb35ebf9d37c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3883f4e752664b10996481fc969b208') in 0.034765 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/play_icon_chest_bg.png
+  artifactKey: Guid(480ce17bdb09c4b528925a6205bc32b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/play_icon_chest_bg.png using Guid(480ce17bdb09c4b528925a6205bc32b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad361a9d09c43b64f5ffd73cc4393fa') in 0.031000 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/play_wave_bg_blue.png
+  artifactKey: Guid(4e0a5dc6306d744b7abb20b9da16476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/play_wave_bg_blue.png using Guid(4e0a5dc6306d744b7abb20b9da16476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7858f5ec4098f086bc43d7d6aed34d') in 0.032621 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/play_wave_bg_back.png
+  artifactKey: Guid(48541148fa692441a85113e88999424c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/play_wave_bg_back.png using Guid(48541148fa692441a85113e88999424c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30acf333355f37d1d0930be19880cb1e') in 0.031259 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Chat/popup_bg.png
+  artifactKey: Guid(e10e2e63255044d738e79d5744af16aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Chat/popup_bg.png using Guid(e10e2e63255044d738e79d5744af16aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a2ac63a7c13814d866e193c44f02a6') in 0.028355 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.716693 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/PopupSubscribe/popup_bg_purple.png
+  artifactKey: Guid(2feaafe4e67104e6fbd6232e8f31f297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/PopupSubscribe/popup_bg_purple.png using Guid(2feaafe4e67104e6fbd6232e8f31f297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3de0109bd985d68286e76d95801ef9e') in 0.034974 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Roulette/roulette_bg.png
+  artifactKey: Guid(92941183ea08b4de6906e406535ef99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Roulette/roulette_bg.png using Guid(92941183ea08b4de6906e406535ef99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b624bb6a89a329705d232dc28ba58382') in 0.458559 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/OfflineReward/title_bg_red.png
+  artifactKey: Guid(9e60e4c19a24d4f9ab3b882467e3ff28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/OfflineReward/title_bg_red.png using Guid(9e60e4c19a24d4f9ab3b882467e3ff28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f5595724c3fd20b04d249a7ab0eea6') in 0.189403 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/toast_popup_bg.png
+  artifactKey: Guid(e544a06ddd05f42fd879ce1fbe06593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/toast_popup_bg.png using Guid(e544a06ddd05f42fd879ce1fbe06593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5785f497b3f7bbf6139ec8ce80d85a2') in 0.035244 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/_UsedAssets/Game/user_level_bar_bg.png
+  artifactKey: Guid(1c003fff2a78f4a4fa6e0a7be1fb3cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/_UsedAssets/Game/user_level_bar_bg.png using Guid(1c003fff2a78f4a4fa6e0a7be1fb3cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a403cb8dc690b4c0872425d5c7129f2') in 0.028675 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/user_level_bg.png
+  artifactKey: Guid(8204a346530a44e11a8f7a16aed74e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/user_level_bg.png using Guid(8204a346530a44e11a8f7a16aed74e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759368f84ce47fa6a2e14337274a662d') in 0.031552 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/_UsedAssets/MainMenu/ribbon_bg_orange.png
+  artifactKey: Guid(2323358c16953446e9b2cb27fde07104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/_UsedAssets/MainMenu/ribbon_bg_orange.png using Guid(2323358c16953446e9b2cb27fde07104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf18493a898b61d7efdc0c840a6121b') in 0.036128 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/OfflineReward/title_bg_green.png
+  artifactKey: Guid(f143e6b7f1ee14c9c8385475d718d2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/OfflineReward/title_bg_green.png using Guid(f143e6b7f1ee14c9c8385475d718d2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1a53ce5509dbf6401c4b6e58acabc5') in 0.039130 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/ribbon_bg_green.png
+  artifactKey: Guid(4f004328d7c9547edae34787869f3e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/ribbon_bg_green.png using Guid(4f004328d7c9547edae34787869f3e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d20d8f0ead72c1a81801d145d34a648') in 0.030158 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/OfflineReward/title_bg_purple.png
+  artifactKey: Guid(53a1ea3f1d6424c05b8510d75554f3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/OfflineReward/title_bg_purple.png using Guid(53a1ea3f1d6424c05b8510d75554f3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2291a6f6e2d6697f3c2a13cd5ab4434') in 0.035721 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Ranking/ranking_profile_bg_green.png
+  artifactKey: Guid(46c193379f00e448fbe9b57ffa7a3cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Ranking/ranking_profile_bg_green.png using Guid(46c193379f00e448fbe9b57ffa7a3cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2185f4e46469705be7b1709af4790d') in 0.028434 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Character_Passive/skill_lv_bg.png
+  artifactKey: Guid(8e3feb46c1a9745ff8d049306e68d84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Character_Passive/skill_lv_bg.png using Guid(8e3feb46c1a9745ff8d049306e68d84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdadfc9cb22f395b5c5d53e0580c4d3') in 0.030378 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/_UsedAssets/MainMenu/Settings/switch_on_bg.png
+  artifactKey: Guid(0363d21a84dc6491e831bae874edc6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/_UsedAssets/MainMenu/Settings/switch_on_bg.png using Guid(0363d21a84dc6491e831bae874edc6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c192b55da559dca1bf6d9fb4529f999') in 0.029922 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/reward_menu_bg_focus.png
+  artifactKey: Guid(c0947046604294781a54818d5efaa1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/reward_menu_bg_focus.png using Guid(c0947046604294781a54818d5efaa1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bc22c29004ba24cf34afe8818d0f00') in 0.032484 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/user_player_prg_bg_left.png
+  artifactKey: Guid(5b3201120c6b845a788788a662f00338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/user_player_prg_bg_left.png using Guid(5b3201120c6b845a788788a662f00338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490bcb8d25aeafbd71dd70390c6549bd') in 0.032136 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.775452 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Lobby_UserInfo/userinfo_lv_bg.png
+  artifactKey: Guid(4de8d2fa3ab064c2ebde730c924aba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Lobby_UserInfo/userinfo_lv_bg.png using Guid(4de8d2fa3ab064c2ebde730c924aba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb28aa1075169a889618684b81255ae') in 0.030261 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/PlayBattle_VS/vs_bg_green.png
+  artifactKey: Guid(71f80f23111114970abec67fe4ae800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/PlayBattle_VS/vs_bg_green.png using Guid(71f80f23111114970abec67fe4ae800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabad4498a0c5ddb604128948b509c31') in 0.092018 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 53.182055 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_enermy_icon_0.png
+  artifactKey: Guid(c607300554a0c44469620484fccbf239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_enermy_icon_0.png using Guid(c607300554a0c44469620484fccbf239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b286a587abbe901fd264dd5529815043') in 0.035862 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_icon_pouch.png
+  artifactKey: Guid(c249affb68c10448491cf5f21db84c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_icon_pouch.png using Guid(c249affb68c10448491cf5f21db84c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127e36367df97ca1da2d25d373a022db') in 0.045390 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_icon_book.png
+  artifactKey: Guid(048d137da78a041979d9dc4c6af017a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_icon_book.png using Guid(048d137da78a041979d9dc4c6af017a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de53e0e2afbe5b3a6e50ff79724adc74') in 0.039340 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ThirdPartyAssets/Epic Toon FX/Textures/notes.png
+  artifactKey: Guid(5dae3deb60dfedf479095fd6ab7c4117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/Epic Toon FX/Textures/notes.png using Guid(5dae3deb60dfedf479095fd6ab7c4117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c27f3bbc9189f7b427ed1421182b3e') in 0.057131 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_me_icon_3.png
+  artifactKey: Guid(8155a68725ff84b949853519dabf2513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_me_icon_3.png using Guid(8155a68725ff84b949853519dabf2513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe9a90e221f3e13ede9a79ee87c7e3d') in 0.037932 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_sample.png
+  artifactKey: Guid(3bbcc07f0b726408d8bab96079abe897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_sample.png using Guid(3bbcc07f0b726408d8bab96079abe897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b0f93e2927f68279c102d2f2ce7d60') in 0.050971 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_me_icon_0.png
+  artifactKey: Guid(a944c26a9a5644752aa50c288397f589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_me_icon_0.png using Guid(a944c26a9a5644752aa50c288397f589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacc98b543d1b1aeac0502e35d75d8f4') in 0.044991 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Reward/particle_rainbow.png
+  artifactKey: Guid(42f7f15f106c94250b08d8a43540c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Reward/particle_rainbow.png using Guid(42f7f15f106c94250b08d8a43540c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb034d795f37cb8384669215264956c') in 0.037579 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_list_reward_gold.png
+  artifactKey: Guid(35e4ceee666464b0ab5525eef8ac4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_list_reward_gold.png using Guid(35e4ceee666464b0ab5525eef8ac4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0af00d5e500cbde0c43c3440cf048ea') in 0.029487 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_reward_icon_energy.png
+  artifactKey: Guid(9d29f17266a7746ce95c45716aee9f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_reward_icon_energy.png using Guid(9d29f17266a7746ce95c45716aee9f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d2e1a3f58936163e5d030522812b43') in 0.033266 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/notification_small_icon_green.png
+  artifactKey: Guid(0e07c8fb8158b4d95bc5184c10777d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Common/notification_small_icon_green.png using Guid(0e07c8fb8158b4d95bc5184c10777d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88cd5771fb10ea3bc257d1902a873e2') in 0.034831 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_reward_icon_chest.png
+  artifactKey: Guid(14bb7dbe03b4c4f1999e45ec89aafdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_reward_icon_chest.png using Guid(14bb7dbe03b4c4f1999e45ec89aafdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25107649a8d0dfbc5b0f5a434c8d910c') in 0.033341 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_me_icon_2.png
+  artifactKey: Guid(d86099816ff8b4746ac08e55954073c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_me_icon_2.png using Guid(d86099816ff8b4746ac08e55954073c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2652fe05c28789aab5496d56c613930') in 0.027003 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_prg_bar.png
+  artifactKey: Guid(67969f734195d4619aab1f08027f0b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_prg_bar.png using Guid(67969f734195d4619aab1f08027f0b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9501f17df4b31c85eb7dea71ab836e9') in 0.030075 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_reward_icon_gold.png
+  artifactKey: Guid(c3060093b5d684047a11461e7f1e59d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_reward_icon_gold.png using Guid(c3060093b5d684047a11461e7f1e59d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e1e5647b1572cacfb0bb90d31fdd9e') in 0.033644 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play_Continue_Pause_Result/particle_circle.png
+  artifactKey: Guid(61f14e0da5f2045d5882369db281148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play_Continue_Pause_Result/particle_circle.png using Guid(61f14e0da5f2045d5882369db281148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722fc6e3c64f3af45df6405cd8d93df1') in 0.038119 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartyAssets/Epic Toon FX/Textures/moneybillsv2.png
+  artifactKey: Guid(8b1358b9e9109104184a14ad6c4bcaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/Epic Toon FX/Textures/moneybillsv2.png using Guid(8b1358b9e9109104184a14ad6c4bcaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62d43164a779f3b442219c68bf5839f') in 0.060654 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_reward_icon_glove.png
+  artifactKey: Guid(59a6ec29f18a14d9497453eadf418456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_reward_icon_glove.png using Guid(59a6ec29f18a14d9497453eadf418456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bde36c9f17ff43aaaa0a88818aa600') in 0.036239 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/OfflineReward/offline_reward_gem.png
+  artifactKey: Guid(b7ae2ab2d0f9048be835ec1542e1ca47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/OfflineReward/offline_reward_gem.png using Guid(b7ae2ab2d0f9048be835ec1542e1ca47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cd17c33649efa3a6418bb00887850a') in 0.029429 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_list_reward_rune.png
+  artifactKey: Guid(a3b5933c788cc48a4ad1eccad6499632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_list_reward_rune.png using Guid(a3b5933c788cc48a4ad1eccad6499632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498f3157701343b4d098dd7891ff59d6') in 0.029293 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_icon_trophy.png
+  artifactKey: Guid(ecb1889fcd79d4365999c3f814fa913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_icon_trophy.png using Guid(ecb1889fcd79d4365999c3f814fa913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c717059ac6a0c9abbf13e201f417ac9e') in 0.029625 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_list_reward_gem.png
+  artifactKey: Guid(0194274b6383e402a8facb4fa8c8425a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Mission/mission_list_reward_gem.png using Guid(0194274b6383e402a8facb4fa8c8425a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deeae9d7564c0f9634d85b5c4388b8b3') in 0.033788 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_me_icon_1.png
+  artifactKey: Guid(aa2b4fdd630c64600957a89ad24467ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_me_icon_1.png using Guid(aa2b4fdd630c64600957a89ad24467ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ab6975f9c42084d9cf8692515d378d') in 0.031656 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_me_icon_4.png
+  artifactKey: Guid(7d50eb4c510eb4e8b9ae8223cdbf70b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/Play/minimap_me_icon_4.png using Guid(7d50eb4c510eb4e8b9ae8223cdbf70b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df995046307f9bebb7a6cd93ca8aa462') in 0.031063 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
