@@ -15,7 +15,7 @@ C:/Users/erenn/Documents/GitHub/RoadChange/DefaultBase
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62541
+52647
 Successfully changed project path to: C:/Users/erenn/Documents/GitHub/RoadChange/DefaultBase
 C:/Users/erenn/Documents/GitHub/RoadChange/DefaultBase
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/erenn/Documents/GitHub/RoadChange/DefaultBase
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17652] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 2904701229 [EditorId] 2904701229 [Version] 1048832 [Id] WindowsEditor(7,Eren) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20196] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 1070540820 [EditorId] 1070540820 [Version] 1048832 [Id] WindowsEditor(7,Eren) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17652] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 2904701229 [EditorId] 2904701229 [Version] 1048832 [Id] WindowsEditor(7,Eren) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20196] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 1070540820 [EditorId] 1070540820 [Version] 1048832 [Id] WindowsEditor(7,Eren) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 174.60 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 183.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -68,81 +68,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011809 seconds.
+Registered in 0.012367 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 318 ms
-Refreshing native plugins compatible for Editor in 168.00 ms, found 4 plugins.
+Android Extension - Scanning For ADB Devices 321 ms
+Refreshing native plugins compatible for Editor in 162.73 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
+- Completed reload, in  1.302 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1288ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1303ms)
+		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1026ms)
-			LoadAssemblies (123ms)
+		EndReloadAssembly (1023ms)
+			LoadAssemblies (141ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
+			SetupTypeCache (137ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (793ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (789ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (433ms)
+				InitializePlatformSupportModulesInManaged (442ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (168ms)
+				RefreshPlugins (163ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (136ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014066 seconds.
+Registered in 0.011568 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 152.05 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 164.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.082 seconds
+- Completed reload, in  2.078 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2083ms)
-		BeginReloadAssembly (176ms)
+	ReloadAssembly (2079ms)
+		BeginReloadAssembly (177ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1750ms)
-			LoadAssemblies (146ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1756ms)
+			LoadAssemblies (143ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (1183ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1184ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (152ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (760ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				RefreshPlugins (165ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (753ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
@@ -150,12 +150,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3865 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (399.2 KB). Loaded Objects now: 4364.
-Memory consumption went from 279.9 MB to 279.5 MB.
-Total: 4.692700 ms (FindLiveObjects: 0.505700 ms CreateObjectMapping: 0.156900 ms MarkObjects: 3.756700 ms  DeleteObjects: 0.272200 ms)
+Unloading 3867 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (383.8 KB). Loaded Objects now: 4366.
+Memory consumption went from 280.0 MB to 279.6 MB.
+Total: 3.541600 ms (FindLiveObjects: 0.379500 ms CreateObjectMapping: 0.107700 ms MarkObjects: 2.823700 ms  DeleteObjects: 0.229100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,421 +171,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 202818.640216 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Etc_Loading.prefab
-  artifactKey: Guid(fc12b9e897b124d4ead6245b320a9d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 175641.866209 seconds.
+  path: Assets/ThirdPartyAssets
+  artifactKey: Guid(150265ed61b227e4bb15a1fb4a5bf421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Etc_Loading.prefab using Guid(fc12b9e897b124d4ead6245b320a9d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6654d06ce77c1622ff28c90d3c9ef58b') in 0.112897 seconds 
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Equipment.prefab
-  artifactKey: Guid(2d076befb189a4bc68c64a440ae239f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Equipment.prefab using Guid(2d076befb189a4bc68c64a440ae239f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd155bd7910f22837ed4cbfab537268') in 0.389809 seconds 
-Number of asset objects unloaded after import = 999
-========================================================================
-Received Import Request.
-  Time since last request: 0.843881 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Component_3.prefab
-  artifactKey: Guid(7b25868c53abb47c8a7d09132a350c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Component_3.prefab using Guid(7b25868c53abb47c8a7d09132a350c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd131a3ba37d7077595fd26c599644c62') in 0.099952 seconds 
-Number of asset objects unloaded after import = 934
-========================================================================
-Received Import Request.
-  Time since last request: 2.225282 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Ranking.prefab
-  artifactKey: Guid(782d511f3281243daaab159fcf82d0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Ranking.prefab using Guid(782d511f3281243daaab159fcf82d0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04de00fa18c5e668370193917c9dc1ff') in 0.086982 seconds 
-Number of asset objects unloaded after import = 380
-========================================================================
-Received Import Request.
-  Time since last request: 0.507870 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Stage_Select_Type2.prefab
-  artifactKey: Guid(a1c2e94635e6d4ea39589a6c0fa5829f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Stage_Select_Type2.prefab using Guid(a1c2e94635e6d4ea39589a6c0fa5829f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7432681489644aa9fca23100ae6327fd') in 0.159980 seconds 
-Number of asset objects unloaded after import = 722
-========================================================================
-Received Import Request.
-  Time since last request: 5.192285 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_SelectHeroes.prefab
-  artifactKey: Guid(b76e52496882d4a76aee9ce0cd73c2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_SelectHeroes.prefab using Guid(b76e52496882d4a76aee9ce0cd73c2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf7febde8866fe201de1b056581e18d') in 0.072980 seconds 
-Number of asset objects unloaded after import = 269
-========================================================================
-Received Import Request.
-  Time since last request: 0.918238 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Shop_Popup_Subscribe.prefab
-  artifactKey: Guid(1874d64d977144b589c1fa134fe558ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Shop_Popup_Subscribe.prefab using Guid(1874d64d977144b589c1fa134fe558ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918b6289f8bce3dd28c4238aa7eb02d1') in 0.260975 seconds 
-Number of asset objects unloaded after import = 1005
-========================================================================
-Received Import Request.
-  Time since last request: 11.948645 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Component_2.prefab
-  artifactKey: Guid(8a83095403a1843adb98e3c39780c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Component_2.prefab using Guid(8a83095403a1843adb98e3c39780c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56423adaa48064abba6934a4d1c569f') in 0.163867 seconds 
-Number of asset objects unloaded after import = 648
-========================================================================
-Received Import Request.
-  Time since last request: 95.772469 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Component_4.prefab
-  artifactKey: Guid(c371f8b174b6147aa97ab14330bd0c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Component_4.prefab using Guid(c371f8b174b6147aa97ab14330bd0c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0c9ea8713a889836f8264c2f60d53d') in 0.163971 seconds 
-Number of asset objects unloaded after import = 746
-========================================================================
-Received Import Request.
-  Time since last request: 6.820201 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Etc_LevelUp.prefab
-  artifactKey: Guid(356bd9bdf3a1741ae9c44af942eaf808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Etc_LevelUp.prefab using Guid(356bd9bdf3a1741ae9c44af942eaf808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dc63a9e46cb9a23329ecca3f1faa57') in 0.249991 seconds 
-Number of asset objects unloaded after import = 257
-========================================================================
-Received Import Request.
-  Time since last request: 2.543656 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Etc_LockScreen.prefab
-  artifactKey: Guid(bdb27378fcd5d4f15a5306da9a9d548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Etc_LockScreen.prefab using Guid(bdb27378fcd5d4f15a5306da9a9d548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bb9fee73fe87ae31a65f99b1cae0a8') in 0.160706 seconds 
-Number of asset objects unloaded after import = 111
-========================================================================
-Received Import Request.
-  Time since last request: 2.457306 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby.prefab
-  artifactKey: Guid(c010b3e74e53e4d33b098f9746b5d71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby.prefab using Guid(c010b3e74e53e4d33b098f9746b5d71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d65d44487c328f46747f2236fec3a7') in 0.157585 seconds 
-Number of asset objects unloaded after import = 673
-========================================================================
-Received Import Request.
-  Time since last request: 33.332466 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_ErrorNetwork.prefab
-  artifactKey: Guid(3e069c32e1a154cffa99e6f48cde3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_ErrorNetwork.prefab using Guid(3e069c32e1a154cffa99e6f48cde3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5a5df69ebd5b9efc174d9051aaedb5') in 0.022877 seconds 
-Number of asset objects unloaded after import = 43
-========================================================================
-Received Import Request.
-  Time since last request: 15.074176 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Equipment_Popup_AddSlot.prefab
-  artifactKey: Guid(0e12ace9f56574b1ba50d73114994c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Equipment_Popup_AddSlot.prefab using Guid(0e12ace9f56574b1ba50d73114994c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05adee95f33b6f588ab29750f2474c7e') in 0.043308 seconds 
-Number of asset objects unloaded after import = 88
-========================================================================
-Received Import Request.
-  Time since last request: 0.910041 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Equipment_Popup_Detail1.prefab
-  artifactKey: Guid(c4cda3b68d9ad40d7bf2238c2f9f09ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Equipment_Popup_Detail1.prefab using Guid(c4cda3b68d9ad40d7bf2238c2f9f09ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5d9e3389686b5854c709b6253538a1') in 0.042881 seconds 
-Number of asset objects unloaded after import = 140
-========================================================================
-Received Import Request.
-  Time since last request: 2.751928 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Equipment_Popup_Detail2.prefab
-  artifactKey: Guid(31c67c0cdde7046dcb7d6fc9d39dac7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Equipment_Popup_Detail2.prefab using Guid(31c67c0cdde7046dcb7d6fc9d39dac7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f37d0d719189b3f92fc87fe7bcd8829') in 0.043628 seconds 
-Number of asset objects unloaded after import = 151
-========================================================================
-Received Import Request.
-  Time since last request: 1.799087 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Heroes.prefab
-  artifactKey: Guid(f2120807e794743d0bfaa32beae2b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Heroes.prefab using Guid(f2120807e794743d0bfaa32beae2b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15284f47516848b60038ae4b39a61043') in 0.087995 seconds 
-Number of asset objects unloaded after import = 919
-========================================================================
-Received Import Request.
-  Time since last request: 7.067830 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Heroes_Detail_SuperPassive.prefab
-  artifactKey: Guid(604ada41d8eb54884923f93e3a0cecf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Heroes_Detail_SuperPassive.prefab using Guid(604ada41d8eb54884923f93e3a0cecf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7497a20feb28c37d016b7ccba205e91b') in 0.065957 seconds 
-Number of asset objects unloaded after import = 57
-========================================================================
-Received Import Request.
-  Time since last request: 1.045204 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Inventory.prefab
-  artifactKey: Guid(3b69dac8b68f941d889a183eff2f5866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Inventory.prefab using Guid(3b69dac8b68f941d889a183eff2f5866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee0918af6d184d2f8f6fdd7edcbcbd9') in 0.166192 seconds 
-Number of asset objects unloaded after import = 1053
-========================================================================
-Received Import Request.
-  Time since last request: 53.834665 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Missions.prefab
-  artifactKey: Guid(b2c271966e07241e5adf831f50839cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Missions.prefab using Guid(b2c271966e07241e5adf831f50839cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64c5d0f7b028a1f23eb88a440127348') in 0.157713 seconds 
-Number of asset objects unloaded after import = 657
-========================================================================
-Received Import Request.
-  Time since last request: 4.706114 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Pas_Popup_Subscribe.prefab
-  artifactKey: Guid(689e9d86df53b41f18b3410c90a42498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Pas_Popup_Subscribe.prefab using Guid(689e9d86df53b41f18b3410c90a42498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecc8065acec086de1c0ef9f96d35cf7') in 0.231115 seconds 
-Number of asset objects unloaded after import = 1317
-========================================================================
-Received Import Request.
-  Time since last request: 1.451587 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Pass.prefab
-  artifactKey: Guid(63dd665245c5a4545acb9ad8d54ed5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Pass.prefab using Guid(63dd665245c5a4545acb9ad8d54ed5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea59c52122d058e9660de4a54f9b151') in 0.149397 seconds 
-Number of asset objects unloaded after import = 1077
-========================================================================
-Received Import Request.
-  Time since last request: 5.029632 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Stage_Select_Type2_Detail.prefab
-  artifactKey: Guid(93003c1072e7f449582f761bc1c7fd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Panel_Stage_Select_Type2_Detail.prefab using Guid(93003c1072e7f449582f761bc1c7fd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e30cd81f3870f6209ff927ad5cb1acd') in 0.136537 seconds 
-Number of asset objects unloaded after import = 1147
-========================================================================
-Received Import Request.
-  Time since last request: 5.961616 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Popup_Chat.prefab
-  artifactKey: Guid(5368007ce42604d5f930185a481c2888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Popup_Chat.prefab using Guid(5368007ce42604d5f930185a481c2888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0543ede070913c12ea0bab18af83f73e') in 0.044993 seconds 
-Number of asset objects unloaded after import = 284
-========================================================================
-Received Import Request.
-  Time since last request: 1.660230 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Popup_Name.prefab
-  artifactKey: Guid(7475cb998d4624428a7c115d7f1b8247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Popup_Name.prefab using Guid(7475cb998d4624428a7c115d7f1b8247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b382e1020d58e4519814fe4f158927') in 0.062237 seconds 
-Number of asset objects unloaded after import = 90
-========================================================================
-Received Import Request.
-  Time since last request: 0.546173 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Popup_Offline.prefab
-  artifactKey: Guid(896d0d806ba8c4c53b63fbfe7e83b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Popup_Offline.prefab using Guid(896d0d806ba8c4c53b63fbfe7e83b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45460dff6fee9425fcf49d8393698d57') in 0.082012 seconds 
-Number of asset objects unloaded after import = 178
-========================================================================
-Received Import Request.
-  Time since last request: 1.263885 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Popup_RewardWeek.prefab
-  artifactKey: Guid(1b8e0eea4c4fc46c8b8b2422c525f19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Popup_RewardWeek.prefab using Guid(1b8e0eea4c4fc46c8b8b2422c525f19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc5c7828fec0eb69222b9b6500e2132') in 0.124646 seconds 
-Number of asset objects unloaded after import = 385
-========================================================================
-Received Import Request.
-  Time since last request: 0.479669 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Popup_Setting_Language.prefab
-  artifactKey: Guid(ccc271358c3e144beb58ceaf0931d7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Popup_Setting_Language.prefab using Guid(ccc271358c3e144beb58ceaf0931d7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02090a33104431727c737e9b11f16bec') in 0.040056 seconds 
-Number of asset objects unloaded after import = 222
-========================================================================
-Received Import Request.
-  Time since last request: 0.468939 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Popup_UserInfo.prefab
-  artifactKey: Guid(9dfa76bef271642229af71d97eb59b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Popup_UserInfo.prefab using Guid(9dfa76bef271642229af71d97eb59b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c1f1f15a79c1e9352ee6166e5c9c7f') in 0.078583 seconds 
-Number of asset objects unloaded after import = 317
-========================================================================
-Received Import Request.
-  Time since last request: 0.952641 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Rate.prefab
-  artifactKey: Guid(1e2afbc14a8d8407ba1c55b7b46d1d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Lobby_Rate.prefab using Guid(1e2afbc14a8d8407ba1c55b7b46d1d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41e1635999a7b7cbc789bbcd3fb1328') in 0.024220 seconds 
-Number of asset objects unloaded after import = 73
-========================================================================
-Received Import Request.
-  Time since last request: 2.486902 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Title_Popup_EUALPrivacy.prefab
-  artifactKey: Guid(a2468f8f03fac4058a881cb6b4870cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Title_Popup_EUALPrivacy.prefab using Guid(a2468f8f03fac4058a881cb6b4870cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d63f52985db0e23605199f45512555') in 0.039922 seconds 
-Number of asset objects unloaded after import = 72
-========================================================================
-Received Import Request.
-  Time since last request: 0.561357 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Play_Type1.prefab
-  artifactKey: Guid(21cd511ada7ce4792a7b050394dad4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Play_Type1.prefab using Guid(21cd511ada7ce4792a7b050394dad4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ddb3b092bba4e49097d1d52b83a615') in 0.071484 seconds 
-Number of asset objects unloaded after import = 555
-========================================================================
-Received Import Request.
-  Time since last request: 0.403395 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Play_Continue.prefab
-  artifactKey: Guid(143ec44f1f9fa46b0b3e5acc0e540992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/Prefabs/UI_ScenePanel/Play_Continue.prefab using Guid(143ec44f1f9fa46b0b3e5acc0e540992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6a2c15c679ab9a29adf0f390ca5600') in 0.090077 seconds 
-Number of asset objects unloaded after import = 109
-========================================================================
-Received Import Request.
-  Time since last request: 12.260604 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/64/btn-icon-audio.png
-  artifactKey: Guid(cf4ec89accdc74f669838a25d0254125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/64/btn-icon-audio.png using Guid(cf4ec89accdc74f669838a25d0254125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa474da3f87d3f167e834f4f40d4a1f') in 0.074243 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/128/btn-icon-audio.png
-  artifactKey: Guid(384e2b0ae42494656a2ac57040096c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/128/btn-icon-audio.png using Guid(384e2b0ae42494656a2ac57040096c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512c24d051385c1e1eb31e9b162acdc1') in 0.045103 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-bad-immune.png
-  artifactKey: Guid(0a36df654bec74e64aa3a3cf570a958b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-bad-immune.png using Guid(0a36df654bec74e64aa3a3cf570a958b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f57b404eb6b025d688f99e36d7e2f5') in 0.037411 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/64/btn-icon-card.png
-  artifactKey: Guid(0cac75f2498f348b49304e893e1a6605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/64/btn-icon-card.png using Guid(0cac75f2498f348b49304e893e1a6605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef278c568196b3b58433423710aaa2cc') in 0.030478 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/128/btn-icon-calendar.png
-  artifactKey: Guid(d6cfec5099d264847849a18f7d863570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/128/btn-icon-calendar.png using Guid(d6cfec5099d264847849a18f7d863570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c86940b60b5510fd82924c6a142534') in 0.034195 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/64/btn-icon-candle.png
-  artifactKey: Guid(1e77df5f08a0c41e0a8523b7afedb94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/64/btn-icon-candle.png using Guid(1e77df5f08a0c41e0a8523b7afedb94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b979ab7ad4f120fdb7f89ef0c2285b7f') in 0.034468 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-damage.png
-  artifactKey: Guid(618256cbd91bc407aafb16c4071e0ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-damage.png using Guid(618256cbd91bc407aafb16c4071e0ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc4b4bf5780f0f8bf0548e0487249e4') in 0.035761 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-award.png
-  artifactKey: Guid(3b055e3024e8b4e0b9ccb35d61a5b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-award.png using Guid(3b055e3024e8b4e0b9ccb35d61a5b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f284d929629f221ef7d6893a2163fe3c') in 0.029849 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/128/btn-icon-card.png
-  artifactKey: Guid(ad4195fec35b84f4b9742648a7cc0eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/128/btn-icon-card.png using Guid(ad4195fec35b84f4b9742648a7cc0eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fdc67df4896697d72ecb10aa134dfe') in 0.035575 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/128/btn-icon-damage.png
-  artifactKey: Guid(329483517b84746a0aec8a9275acf60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/128/btn-icon-damage.png using Guid(329483517b84746a0aec8a9275acf60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd391512540ceb5c025051b732385c983') in 0.035404 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-calendar.png
-  artifactKey: Guid(312d3eabb68af417d9f05e98b55c11af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-calendar.png using Guid(312d3eabb68af417d9f05e98b55c11af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44b1255119c5ddd88f2717770696abf') in 0.030414 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/64/btn-icon-damage.png
-  artifactKey: Guid(aa58dba267d234855b97c7ee6cce7d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/64/btn-icon-damage.png using Guid(aa58dba267d234855b97c7ee6cce7d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e665ea5a2598fa6520c55f21f667654') in 0.031661 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-candle.png
-  artifactKey: Guid(e01e5b6c7d53b4257aefe28905e39913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-candle.png using Guid(e01e5b6c7d53b4257aefe28905e39913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7902cee49dddcc2b36052aa5f521ef') in 0.032218 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-bookmark-add.png
-  artifactKey: Guid(305b4884c91b24873876795c335b4a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-bookmark-add.png using Guid(305b4884c91b24873876795c335b4a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb9e04253f156f5f96fe57a4cdb89e4') in 0.047847 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/128/btn-icon-candle.png
-  artifactKey: Guid(2b72f5be3dbea4d589f31446a630607c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/128/btn-icon-candle.png using Guid(2b72f5be3dbea4d589f31446a630607c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf7c9b66a8b1b122d49a9a11264a140') in 0.035276 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.009602 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-door.png
-  artifactKey: Guid(4313e16b3975740e8933776bd359111b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/backup/32/btn-icon-door.png using Guid(4313e16b3975740e8933776bd359111b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674fecc8151d74e4c7c58b00d5704746') in 0.037707 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/64/btn_icon_door.png
-  artifactKey: Guid(5ea6be79691874988843ccd5c3491ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/64/btn_icon_door.png using Guid(5ea6be79691874988843ccd5c3491ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094fb99b4eb0326c9e1955432ea9754c') in 0.038549 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/32/btn_icon_door.png
-  artifactKey: Guid(87743833e88f9426abc424dd3006d2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/32/btn_icon_door.png using Guid(87743833e88f9426abc424dd3006d2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7bebe778e5f459f22c7b7a8b0dfcbb') in 0.027796 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/128/btn_icon_door.png
-  artifactKey: Guid(24de803da8f114b3890af63cb98764e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Sprite/_Icons/Pictoicons/128/btn_icon_door.png using Guid(24de803da8f114b3890af63cb98764e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1448bc93a9033a35c6a3814e88228a0f') in 0.028242 seconds 
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/ThirdPartyAssets using Guid(150265ed61b227e4bb15a1fb4a5bf421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6338d9071bcc4e054cdc60992d0fe2fc') in 0.019371 seconds 
+Number of asset objects unloaded after import = 0

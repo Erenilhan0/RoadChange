@@ -7,52 +7,37 @@ using UnityEngine.Serialization;
 
 public class Spawner : MonoBehaviour
 {
+    [SerializeField] private Movable MovablePrefab;
+    [SerializeField] private List<Movable> MovablePool;
 
-    public int poolSize;
-    
-    [SerializeField] private Movable movablePrefab;
-    
-    public List<Movable> movablePool;
-    public Transform poolParent;
+    [SerializeField] private int PoolSize;
+    [SerializeField] private Transform PoolParent;
 
-    public float spawnRate;
+    [SerializeField] private float SpawnRate;
+
     
-    private void Start()
+    public void SpawnMovablePool()
     {
-        GameManager.I.OnGamePhaseChange += OnOnGamePhaseChange;
-        SpawnMovablePool();
-    }
-
-    private void OnOnGamePhaseChange(GamePhase obj)
-    {
-        if (obj == GamePhase.Game)
+        for (int i = 0; i < PoolSize; i++)
         {
-            StartCoroutine(OpenMovableFromPool());
-        }
-    }
-
-    private void SpawnMovablePool()
-    {
-        for (int i = 0; i < poolSize; i++)
-        {
-            var movable = Instantiate(movablePrefab, transform.position, transform.rotation,poolParent);
+            var movable = Instantiate(MovablePrefab, transform.position, transform.rotation, PoolParent);
             movable.gameObject.SetActive(false);
-            movablePool.Add(movable);
+            MovablePool.Add(movable);
         }
     }
 
-    private IEnumerator OpenMovableFromPool()
+    public IEnumerator OpenMovableFromPool()
     {
-        yield return new WaitForSeconds(spawnRate);
+        yield return new WaitForSeconds(SpawnRate);
 
         var movable = GetMovableFromPool();
         var transform1 = movable.transform;
-        
+
         transform1.position = transform.position;
         transform1.rotation = transform.rotation;
-        
+
         movable.OnSpawn();
-        
+
         movable.gameObject.SetActive(true);
 
         StartCoroutine(OpenMovableFromPool());
@@ -61,7 +46,7 @@ public class Spawner : MonoBehaviour
 
     private Movable GetMovableFromPool()
     {
-        foreach (var movable in movablePool)
+        foreach (var movable in MovablePool)
         {
             if (!movable.gameObject.activeInHierarchy)
             {
@@ -74,8 +59,18 @@ public class Spawner : MonoBehaviour
 
     private Movable SpawnNewMovableToPool()
     {
-       var movable = Instantiate(movablePrefab, transform.position,  transform.rotation,poolParent);
-       movablePool.Add(movable);
-       return movable;
+        var transform1 = transform;
+        var movable = Instantiate(MovablePrefab, transform1.position, transform1.rotation, PoolParent);
+        MovablePool.Add(movable);
+        return movable;
+    }
+
+
+    public void CloseMovables()
+    {
+        foreach (var movable in MovablePool)
+        {
+           movable.gameObject.SetActive(false);
+        }
     }
 }

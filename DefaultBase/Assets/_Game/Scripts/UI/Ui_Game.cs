@@ -8,10 +8,9 @@ using UnityEngine;
 public class Ui_Game : UiBase
 {
 
-
-
     [SerializeField] private TextMeshProUGUI levelText;
         
+    
     private void Start()
     {
         GameManager.I.OnGamePhaseChange+= OnOnGamePhaseChange;
@@ -26,8 +25,7 @@ public class Ui_Game : UiBase
         }
 
     }
-
-
+    
     public override void HideUi()
     {
         transform.DOScale(0, 0);
