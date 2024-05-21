@@ -96,5 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f364a54551975147bb25d8462dafbea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxChangeAmount: 10
-  changeAmount: 0
+  MaxChangeAmount: 10
+  ChangeAmount: 0
+  _meshRenderer: {fileID: 4747550128740944893}
+  selectedColor: {r: 0.3882353, g: 0.85882354, b: 0.1254902, a: 1}
+  unSelectedColor: {r: 0.8980392, g: 0.88235295, b: 0, a: 1}

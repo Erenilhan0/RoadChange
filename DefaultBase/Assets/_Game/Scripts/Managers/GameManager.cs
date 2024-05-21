@@ -3,7 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum  GamePhase{Menu,Game,End}
+public enum GamePhase
+{
+    Menu,
+    Game,
+    End
+}
 
 public class GameManager : MonoBehaviour
 {
@@ -11,11 +16,13 @@ public class GameManager : MonoBehaviour
     public event Action<GamePhase> OnGamePhaseChange;
     public GamePhase currentGamePhase;
 
-    public bool didPlayerWon;
     public int GoldCollectedThisLevel;
-    
 
-    
+
+    private int finishedDoorCount;
+
+    [SerializeField] private LevelController LevelController;
+
     private void Awake()
     {
         I = this;
@@ -26,7 +33,6 @@ public class GameManager : MonoBehaviour
     {
         currentGamePhase = to;
         OnGamePhaseChange?.Invoke(to);
-        
     }
 
 
@@ -45,7 +51,6 @@ public class GameManager : MonoBehaviour
 
     public void StartLevel()
     {
-        didPlayerWon = false;
         GoldCollectedThisLevel = 0;
         ChangeGameState(GamePhase.Game);
         /*
@@ -65,4 +70,32 @@ public class GameManager : MonoBehaviour
         StartLevel();
     }
 
+
+    public void OnBallTriggered(bool finished)
+    {
+        if (finished)
+        {
+            finishedDoorCount++;
+        }
+        else
+        {
+            finishedDoorCount--;
+
+
+            if (finishedDoorCount <= 0)
+            {
+                finishedDoorCount = 0;
+            }
+        }
+
+        if (finishedDoorCount >= LevelController.DoorControllers.Length)
+        {
+            if (!SaveLoad.I.playerProgress.tutorialFinished)
+            {
+                SaveLoad.I.playerProgress.tutorialFinished = true;
+            }
+
+            ChangeGameState(GamePhase.End);
+        }
+    }
 }

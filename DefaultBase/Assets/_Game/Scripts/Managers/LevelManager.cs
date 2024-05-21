@@ -1,85 +1,80 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
+
     public static LevelManager I;
     
-    public GameObject[] levelPrefabs;
-    
-    public LevelController currentLevel;
 
+    public LevelStageController[] levels;
+    public LevelStageController activeLevel;
 
-    public bool isRestarted;
 
     public int levelNumber;
 
     public TutorialController tutorialController;
+
 
     private void Awake()
     {
         I = this;
     }
 
-
     private void Start()
     {
-        SetLevel();
-        GameManager.I.OnGamePhaseChange += OnOnGamePhaseChange;
+        SetLevelsData();
     }
 
-    private void OnOnGamePhaseChange(GamePhase obj)
+
+    private void SetLevelsData()
     {
-        if (obj == GamePhase.Menu)
-        {
-            SetLevel();
-        }
+        var maxLevel = SaveLoad.I.playerProgress.maxLevel;
+
+        var currentLevel = SaveLoad.I.playerProgress.currentLevel;
         
-    }
+        for (int i = 0; i < levels.Length; i++)
+        {
+            var level = levels[i];
+            level.SetLevelStage(i + 1);
 
-    public void SetLevel()
-    {
-        if (!SaveLoad.I.playerProgress.tutorialFinished)
-        {
-            //tutorialController.OpenTutorialLevel();
-        }
-        else
-        {
-            if (!isRestarted)
+            if (i == currentLevel)
             {
-                if (SaveLoad.I.playerProgress.currentLevel < levelPrefabs.Length)
-                {
-                    levelNumber = SaveLoad.I.playerProgress.currentLevel;
-                }
-                else
-                {
-                    levelNumber = Random.Range(0, levelPrefabs.Length);
-                }
+                activeLevel = level;
+                level.SetActiveLevel(true);
             }
-        
-            isRestarted = false;
-
-            OpenLevel();
+            else if (i > maxLevel)
+            {
+                level.LockedLevel();
+            }
         }
 
-     
 
+        OpenLevel();
     }
 
+
+    public void SetActiveLevel(int level)
+    {
+        activeLevel.SetActiveLevel(false);
+        
+        var selectedLevel = levels[level - 1];
+        
+        activeLevel = selectedLevel;
+        
+        activeLevel.SetActiveLevel(true);
+        
+        
+        SaveLoad.I.playerProgress.currentLevel = level - 1;
+
+    }
 
     private void OpenLevel()
     {
-        if (currentLevel != null)
-        {
-            Destroy(currentLevel.gameObject);
-        }
-        
-        var levelGO = Instantiate(levelPrefabs[levelNumber]);
-        currentLevel = levelGO.GetComponent<LevelController>();
-        currentLevel.SetLevel();
+        // var levelGO = Instantiate(levelPrefabs[levelNumber]);
+        // currentLevel = levelGO.GetComponent<LevelController>();
+        // currentLevel.SetLevel();
     }
-
-
-
 }

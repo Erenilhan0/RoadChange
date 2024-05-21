@@ -2,37 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7726ca24-715a-4c16-b411-f9f6cf5a6190" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/LevelStageController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DefaultBase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DefaultBase/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPartyAssets/GUI Kit Casual Game/Extensions/UIParticle/UIParticleSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/GUI Kit Casual Game/Extensions/UIParticle/UIParticleSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPartyAssets/GUI Kit Casual Game/Extensions/UIParticle/hidden particle.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/GUI Kit Casual Game/Extensions/UIParticle/hidden particle.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Particle/Texture/fx_circle_line_blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/GUI Kit Casual Game/ResourcesData/Particle/Texture/fx_circle_line_blue.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Movable/Ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Prefabs/Movable/Ball.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Balls/Materials/Football_material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Balls/Materials/Football_material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EditableGround.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EditableGround.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelSelectController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelSelectController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevelStageController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Blue3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Blue3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPartyAssets/GUI Kit Casual Game/Scenes/DemoScene_(v2.0).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/GUI Kit Casual Game/Scenes/DemoScene_(v2.0).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Lean/Common/Examples/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Lean/Common/Examples/Materials/Skybox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Materials/ConnectionPoint.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Materials/ConnectionPoint.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Materials/Road.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/ControlPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Prefabs/ControlPoint.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Door.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Prefabs/Door.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Movable/Ball.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Movable/Ball.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Movable/car.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Movable/car.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Movable/cute car 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Movable/cute car 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Stage_List.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Prefabs/Stage_List.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/basic car blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/basic car blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/cute car 2 rb.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/cute car 2 rb.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Game.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Game.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/ControlPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/ControlPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Controllers/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Controllers/CameraController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Controllers/DoorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Controllers/DoorController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Controllers/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Controllers/LevelController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Controllers/MeshController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Controllers/MeshController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Controllers/TutorialController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Controllers/TutorialController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/DontDestroy/PlayerProgress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/DontDestroy/PlayerProgress.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Managers/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Managers/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Managers/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Movable/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Movable/Ball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Movable/BallController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Movable/Ball.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Movable/CarMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Movable/Car.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Movable/CarMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Movable/Car.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Movable/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Movable/Ball.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Movable/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Movable/Car.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/UiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/UiManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/Ui_Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/Ui_Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Sprites/ISAAC LOGOJAP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Sprites/ISAAC LOGOJAP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
@@ -47,13 +73,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/EditableGround.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI_DoorController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/DontDestroy/CurrencyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/UI/UiBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/UI/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/UI/Ui_EndGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/UI/Ui_Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/UI/Ui_Menu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Downloads/Rope-Man Run 3D v1.0/Rope-Man Run 3D v1.0/RopeMan Run/Assets/Scripts/Movement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -167,6 +193,14 @@
       <workItem from="1713639722928" duration="1188000" />
       <workItem from="1713661724803" duration="3250000" />
       <workItem from="1713733434518" duration="617000" />
+      <workItem from="1713746976131" duration="594000" />
+      <workItem from="1713794792640" duration="4890000" />
+      <workItem from="1713881822249" duration="3844000" />
+      <workItem from="1714048140170" duration="4793000" />
+      <workItem from="1714344001480" duration="3272000" />
+      <workItem from="1714405166533" duration="4608000" />
+      <workItem from="1714430499820" duration="595000" />
+      <workItem from="1716130129892" duration="473000" />
     </task>
     <servers />
   </component>

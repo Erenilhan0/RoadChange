@@ -23,9 +23,9 @@ public class UiManager : MonoBehaviour
     private float currentGem;
 
 
-    
-    
-    
+
+
+    public GameObject hand;
     private void Awake()
     {
         I = this;
@@ -86,19 +86,14 @@ public class UiManager : MonoBehaviour
 
     private void Update()
     {
+
+        hand.transform.position = Input.mousePosition;
         if (canLerpGold)
         {
-
             currentGem = Mathf.Lerp(currentGem, targetGold, .1f);
             ChangeGemValue(Mathf.CeilToInt(currentGem));
         }
-
-        if (GameManager.I.currentGamePhase == GamePhase.Menu &&
-            Input.GetMouseButtonDown(0))
-        {
-            OnClickPlayButton();
-        }
-
+        
     }
 
 
@@ -152,11 +147,6 @@ public class UiManager : MonoBehaviour
     public void OnClickNextLevel()
     {
         GameManager.I.OnClickNextLevel();
-    }
-
-    public void OnClickRestart()
-    {
-        GameManager.I.OnClickRestart();
     }
     
 

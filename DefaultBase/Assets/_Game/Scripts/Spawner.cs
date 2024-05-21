@@ -28,6 +28,8 @@ public class Spawner : MonoBehaviour
 
     public IEnumerator OpenMovableFromPool()
     {
+        if (GameManager.I.currentGamePhase != GamePhase.Game) yield break;
+        
         yield return new WaitForSeconds(SpawnRate);
 
         var movable = GetMovableFromPool();

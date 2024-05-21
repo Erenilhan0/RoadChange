@@ -5,16 +5,14 @@ using UnityEngine;
 
 public class LevelController : MonoBehaviour
 {
-
-    [SerializeField] private MeshController _meshController;
-
+    [SerializeField] private MeshController MeshController;
     [SerializeField] private Spawner[] Spawners;
-    
+
+    public DoorController [] DoorControllers;
     
     private void Start()
     {
         GameManager.I.OnGamePhaseChange += OnOnGamePhaseChange;
-        
         SetLevel();
     }
 
@@ -34,7 +32,7 @@ public class LevelController : MonoBehaviour
         }
     }
 
-    public void LevelStarted()
+    private void LevelStarted()
     {
         foreach (var spawner in Spawners)
         {
@@ -42,6 +40,11 @@ public class LevelController : MonoBehaviour
         }
     }
 
+    public void ResetLevel()
+    {
+        MeshController.ResetGrounds();
+        ResetMovables();
+    }
 
     public void ResetMovables()
     {

@@ -1,18 +1,25 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TutorialController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private GameObject tutorialUI;
+
+    [SerializeField] private MeshController MeshController;
+
+
+    private void Start()
     {
-        
+        MeshController.ControlPointHolding += ControlPointOnHold;
+    }
+    
+
+    public void ControlPointOnHold()
+    {
+        tutorialUI.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

@@ -6,7 +6,8 @@ using UnityEngine.Serialization;
 [System.Serializable]
 public class PlayerProgress
 {
-
+    
+    public int maxLevel;
     public int currentLevel;
     public int gold;
 

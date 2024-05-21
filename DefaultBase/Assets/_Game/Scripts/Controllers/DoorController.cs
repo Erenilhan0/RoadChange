@@ -7,19 +7,25 @@ using UnityEngine.Serialization;
 
 public class DoorController : MonoBehaviour
 {
-
     [SerializeField] private TextMeshPro RequiredText;
 
     [SerializeField] private int RequiredCount;
-    private int _currentCount;
+    public int _currentCount;
 
     [SerializeField] private float TimeBetween;
     private float _currentTime;
     private bool _timerOn;
 
+
+    [SerializeField] private UI_DoorController UIDoorController;
+    
+    
     private void Start()
     {
         RequiredText.text = _currentCount + "/" + RequiredCount;
+        
+        UIDoorController.OnMovableTriggered(RequiredCount,_currentCount);
+
     }
 
     private void OnMovableTriggered()
@@ -29,11 +35,18 @@ public class DoorController : MonoBehaviour
             _currentCount++;
 
             RequiredText.text = _currentCount + "/" + RequiredCount;
+            
+            UIDoorController.OnMovableTriggered(RequiredCount,_currentCount);
         }
+        
+        if (_currentCount == RequiredCount)
+        {
+            GameManager.I.OnBallTriggered(true);
+        }
+     
 
         _timerOn = true;
         _currentTime = 0;
-
     }
 
 
@@ -41,14 +54,21 @@ public class DoorController : MonoBehaviour
     {
         if (!_timerOn) return;
 
-        _currentTime+= Time.deltaTime;
+        _currentTime += Time.deltaTime;
 
         if (!(_currentTime >= TimeBetween)) return;
-        
+
+        if (_currentCount == RequiredCount)
+        {
+            GameManager.I.OnBallTriggered(false);
+        }
+
         _currentTime = 0;
         _currentCount--;
-            
+
         RequiredText.text = _currentCount + "/" + RequiredCount;
+        
+        UIDoorController.OnMovableTriggered(RequiredCount,_currentCount);
 
         if (_currentCount == 0)
         {

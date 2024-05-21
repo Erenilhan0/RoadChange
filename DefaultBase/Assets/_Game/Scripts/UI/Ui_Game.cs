@@ -9,7 +9,9 @@ public class Ui_Game : UiBase
 {
 
     [SerializeField] private TextMeshProUGUI levelText;
-        
+
+   
+    
     
     private void Start()
     {

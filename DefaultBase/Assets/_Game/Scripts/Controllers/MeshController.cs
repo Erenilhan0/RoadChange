@@ -7,20 +7,26 @@ using UnityEngine.Serialization;
 
 public class MeshController : MonoBehaviour
 {
+    [SerializeField] private CameraController CameraController;
+
     [SerializeField] private EditableGround[] EditableGrounds;
     [SerializeField] private Transform EditableGroundParent;
 
 
-    [Header("Control Point")] 
-    [SerializeField] private Camera MainCam;
-    [SerializeField] private LayerMask ControlPointLm;
-    private ControlPoint _controlPointOnHold;
+    [Header("Control Point")] [SerializeField]
+    private Camera MainCam;
 
-    [Header("Point Move Stats")]
-    [SerializeField] private float MoveAmount;
+    [SerializeField] private LayerMask ControlPointLm;
+    public ControlPoint _controlPointOnHold;
+
+    [Header("Point Move Stats")] [SerializeField]
+    private float MoveAmount;
+
     [SerializeField] private float MoveInterval;
     private float _currentTimer;
 
+    
+    public event Action ControlPointHolding;
 
     private void Start()
     {
@@ -47,8 +53,15 @@ public class MeshController : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
         {
+            if (_controlPointOnHold != null)
+            {
+                _controlPointOnHold.OnHold(false);
+            }
+
             _controlPointOnHold = null;
             _currentTimer = 0;
+
+            CameraController.controlPointOnHold = false;
         }
     }
 
@@ -58,10 +71,13 @@ public class MeshController : MonoBehaviour
 
         if (!Physics.Raycast(direction, out var hit, 50, ControlPointLm)) return;
 
-        if (_controlPointOnHold == null)
-        {
-            _controlPointOnHold = hit.transform.GetComponent<ControlPoint>();
-        }
+        ControlPointHolding?.Invoke();
+        
+        CameraController.controlPointOnHold = true;
+
+        _controlPointOnHold = hit.transform.GetComponent<ControlPoint>();
+        _controlPointOnHold.OnHold(true);
+
 
         _currentTimer = MoveInterval;
     }
@@ -83,6 +99,22 @@ public class MeshController : MonoBehaviour
         else if (mouseY < 0)
         {
             _controlPointOnHold.ChangePosition(false, MoveAmount);
+        }
+
+
+        foreach (var ground in EditableGrounds)
+        {
+            ground.UpdateMeshCollider();
+        }
+    }
+
+
+    public void ResetGrounds()
+    {
+        foreach (var ground in EditableGrounds)
+        {
+            ground.ResetControlPoints();
+            ground.UpdateMeshCollider();
         }
     }
 }
